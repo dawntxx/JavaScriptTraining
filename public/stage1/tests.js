@@ -15,7 +15,7 @@ describe('ステージ1（意図した DOM 要素を取得できるようにな�
       var element = document.getElementById(elementId);
 
       expect(element).to.be.instanceof(HTMLElement);
-      
+      expect(element).to.have.property('id', elementId);
       // テストが green になりましたか？
       // では、すべてのテストが green になるように、すべてのテストを
       // 修正してみましょう。
