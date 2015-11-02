@@ -27,7 +27,7 @@ describe('ステージ1（意図した DOM 要素を取得できるようにな�
 
       // 'change me!' を書き換えてください。
       var elementId = 'chocolate';
-      var element = 'change me!';
+      var element = document.getElementById;
 
       expect(element).to.be.instanceof(HTMLElement);
       expect(element).to.have.property('id', elementId);
