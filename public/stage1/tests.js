@@ -3,7 +3,7 @@
 describe('ステージ1（意図した DOM 要素を取得できるようになる）', function() {
   describe('DOM インターフェース編', function() {
     it('1 番の赤色の要素（ID は "firebrick"）が1つ取得できる', function() {
-
+      document.getElementById('firebrick').value = "change me!";
       // チュートリアル
       //
       // JavaScriptTraining へようこそ。
